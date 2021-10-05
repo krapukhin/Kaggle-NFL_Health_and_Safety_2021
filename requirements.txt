@@ -8,3 +8,5 @@ matplotlib==3.4.2
 torch==1.7.0
 torchvision==0.8.1
 pyaml==20.4.0
+plotly==5.1.0
+plotly-express==0.4.1
