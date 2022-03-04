@@ -1,0 +1,13 @@
+numpy==1.19.5
+pandas==1.2.4
+opencv-python==4.5.2.54
+opencv-python-headless==4.5.2.54
+scikit-learn==0.23.2
+tqdm==4.61.1
+matplotlib==3.4.2
+torch==1.7.0
+torchvision==0.8.1
+pyaml==20.4.0
+plotly==5.1.0
+plotly-express==0.4.1
+multiprocess==0.70.12.2
