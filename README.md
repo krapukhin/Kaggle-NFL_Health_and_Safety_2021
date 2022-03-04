@@ -1,7 +1,6 @@
-# [Kaggle-NFL_Health_and_Safety_2021](https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/overview)
+# [Kaggle - NFL Health and Safety 2021](https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/overview)
 
-Team: **Krapukhin Bros.** 
-Participants: Dmitry Krapukhin [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/krapukhin), Alexander Krapukhin [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/akrapukhin)
+Team: **Krapukhin Bros.** (Dmitry Krapukhin [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/krapukhin), Alexander Krapukhin [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/akrapukhin))
 
 ### Goal: 
 Segment and label helmets in video footage 
@@ -9,12 +8,16 @@ In this competition, you’ll identify and assign football players’ helmets fr
 
 ![](https://storage.googleapis.com/kaggle-media/competitions/NFL%20player%20safety%20analytics/assingment_example.gif.gif)
 
+The data contains Endzone-view, Sideline-view and Track (the picture below shows an aggregated view).
+![](input/57995_000109_1_EST.jpg)
+
 ### Solution idea: 
 
-...to be continued...
+Finds the optimal matrix of rotation and transformation, based on 2D and 3D coordinates (Modern Posit)
+[Tracking (PyTorch Yolov5 + Deep Sort)](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
 
 ### Results: 
-This solution achieves a Private score: 0.627 (~40 place out of 825, silver medal 🥈).
+This solution achieves a Private score: 0.627 (🥈~40 place out of 825).
  
 
 ### Useful links:
@@ -42,7 +45,7 @@ This solution achieves a Private score: 0.627 (~40 place out of 825, silver meda
 11. [Kaggle notebook #1 Simple Helmet Mapping](https://www.kaggle.com/its7171/nfl-baseline-simple-helmet-mapping)
 12. [Kaggle notebook #2 Helper Code + Helmet Mapping + Deepsort
 ](https://www.kaggle.com/robikscube/helper-code-helmet-mapping-deepsort)
-
+13. How to `import Pool from multiprocessing` - Multiprocessing works fine on Linux. But there are some troubles on Windows and Mac OS. The best solution is to replace to `multiprocessing` to `multiprocess` ([thanks stackoverflow](https://stackoverflow.com/questions/52127722/multiprocessing-pool-map-does-not-do-anything)).
 
 ### **Krapukhin Bros.** other solution:
-The best solution of **Krapukhin Bros.** ™  will be available [here](https://github.com/akrapukhin?tab=overview&from=2021-11-01&to=2021-11-30). It has a Private score  0.717 (32 place out of 825, silver medal 🥈). 
+The other solution of **Krapukhin Bros.** ™  will be available [here](https://github.com/akrapukhin?tab=overview&from=2021-11-01&to=2021-11-30). It has a Private score  0.717 (🥈 32 place out of 825 ). 

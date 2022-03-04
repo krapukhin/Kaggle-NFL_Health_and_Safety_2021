@@ -1,6 +1,6 @@
 
 DEEPSORT:
-  REID_CKPT: "input/yolov5-deepsort-pytorch/ckpt.t7"
+  REID_CKPT: "./input/yolov5-deepsort-pytorch/ckpt.t7"
   MAX_DIST: 0.2
   MIN_CONFIDENCE: 0.2
   NMS_MAX_OVERLAP: 0.5

@@ -10,3 +10,4 @@ torchvision==0.8.1
 pyaml==20.4.0
 plotly==5.1.0
 plotly-express==0.4.1
+multiprocess==0.70.12.2
