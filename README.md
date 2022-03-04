@@ -13,8 +13,8 @@ The data contains Endzone-view, Sideline-view and Track (the picture below shows
 
 ### Solution idea: 
 
-Finds the optimal matrix of rotation and transformation, based on 2D and 3D coordinates (Modern Posit)
-[Tracking (PyTorch Yolov5 + Deep Sort)](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+- Finds the optimal matrix of rotation and transformation, based on 2D and 3D coordinates (Modern Posit)  
+- [Tracking (PyTorch Yolov5 + Deep Sort)](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
 
 ### Results: 
 This solution achieves a Private score: 0.627 (🥈~40 place out of 825).
