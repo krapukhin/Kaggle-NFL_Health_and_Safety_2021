@@ -1,6 +1,7 @@
 # [Kaggle - NFL Health and Safety 2021](https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/overview)
 
-Team: **Krapukhin Bros.** (Dmitry Krapukhin [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/krapukhin), Alexander Krapukhin [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/akrapukhin))
+Team: **Krapukhin Bros.** (Dmitry Krapukhin [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/krapukhin), Alexander Krapukhin [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/akrapukhin))  
+Solution Notebook: **[Submission_pr0.627_pub0.730_0p723.ipynb](https://github.com/krapukhin/Kaggle-NFL_Health_and_Safety_2021/blob/main/Submission_pr0.627_pub0.730_0p723.ipynb)**
 
 ### Goal: 
 Segment and label helmets in video footage 
